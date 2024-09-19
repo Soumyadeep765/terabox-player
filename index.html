@@ -129,7 +129,7 @@
             hdDownload.href = videoData.resolutions["HD Video"];
 
             videoPlayer.src({ type: 'video/mp4', src: "https://apis.forn.fun/tera/data.php?id=" + id });
-            // videoPlayer.poster(videoData.thumbnail);
+            videoPlayer.poster(videoData.thumbnail);
 
             videoDetails.style.display = "block";
         }
